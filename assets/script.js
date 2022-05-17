@@ -298,7 +298,7 @@ async function getNFTS(address) {
             mode: 'cors',
             headers: {
                 'Content-Type': 'application/json',
-                'X-Requested-With': 'XMLHttpRequest'
+                'X-Requested-With': 'XMLHttpRequest',
                 "Access-Control-Allow-Origin":  "https://dortfotor.github.io"
             }});
     let data = await response.json();
